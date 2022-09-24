@@ -9,7 +9,7 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
-    // Navbar shrink function
+    // Função de redução da barra de navegação
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
         if (!navbarCollapsible) {
@@ -23,22 +23,22 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
-    // Shrink the navbar 
+    // Encolher a barra de navegação
     navbarShrink();
 
-    // Shrink the navbar when page is scrolled
+    // Encolher a barra de navegação quando a página é rolada
     document.addEventListener('scroll', navbarShrink);
 
-    // Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 72,
-        });
-    };
+    // Ativa o scrollspy do Bootstrap no elemento de navegação principal
+    // const mainNav = document.body.querySelector('#mainNav');
+    // if (mainNav) {
+    //     new bootstrap.ScrollSpy(document.body, {
+    //         target: '#mainNav',
+    //         offset: 72,
+    //     });
+    // };
 
-    // Collapse responsive navbar when toggler is visible
+   // Recolher a barra de navegação responsiva quando o alternador estiver visível
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
@@ -52,3 +52,27 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+//Realiza a alteração do cabeçalõ conforme o dia
+function carregar(){
+    let hr = document.getElementById("hrdia")
+    var data = new Date();
+    var hora = data.getHours(); 
+    var min = data.getMinutes(); 
+    var seg = data.getSeconds();
+
+
+    if(hora >= 0 && hora < 6){
+        hr.innerHTML = `Boa Madrugada - ${hora}:${min}`
+    }
+    else if(hora >= 6 && hora < 12){
+        hr.innerHTML = `Bom dia! - ${hora}:${min}`
+    }
+    else if(hora >= 12 && hora < 18){
+        hr.innerHTML = `Boa Tarde! - ${hora}:${min}`
+    }
+    else{
+        hr.innerHTML = `Boa Noite - ${hora}:${min}`
+    }
+
+}
