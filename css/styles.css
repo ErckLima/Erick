@@ -43,7 +43,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary: #0DFFC1; /*div atras da foto*/
+  --bs-primary: #0072F5; /*div atras da foto*/
   --bs-secondary-rgb: 79, 0, 250;/*div do cabeçal*/
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -7808,7 +7808,7 @@ textarea.form-control-lg {
 
 .bg-primary { /*Atras da foto*/
   --bs-bg-opacity: 1;
-  background-color: #0DFFC1;
+  background-color: #0072F5;
   border-radius: 50px;
 
 }
