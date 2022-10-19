@@ -101,20 +101,11 @@ li a:hover{
         text-shadow: 0px 0px 5px #166159;
         margin-left: 5px;
     }
-    .cabecalho_menu{
-        color: white;
-    }
     .conteudo_sites ul, li{
         display: inline-block;
     }
     .cabecalho_lista li button{
         font-size: 10px;
     
-    }
-}
-@media screen and (min-width: 768px ) {
-    .cabecalho_menu{
-        display: none;
-        
     }
 }
