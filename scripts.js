@@ -5,8 +5,5 @@ function clickMenu(){
     }
     else{
         menu.style.display = 'block'
-    }
-    
-
-    
+    } 
 }
