@@ -22,11 +22,11 @@ body{
     margin: 0px;
 }
 
-ul{
+.cabecalho_lista ul{
     list-style: none;
     
 }
-li{
+.cabecalho_lista li{
     display: inline-block;
     padding: px;
     top: 0px;
