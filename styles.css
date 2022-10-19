@@ -33,13 +33,13 @@ body{
     left: 0px;
 }
 
-li button{
+.cabecalho_lista li button{
     border: none;
     font-size: 20px;
     background: none;
 
 }
-li button:hover{
+.cabecalho_lista li button:hover{
     border: none;
     font-size: 25px;
     background: none;
@@ -81,6 +81,17 @@ li a:hover{
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 0px 0px 5px #166159;
 }
+
+.conteudo_sites ul, li{
+    display: flex;
+    
+    align-items: center;
+    margin: auto;
+}
+
+
+
+
 @media screen and (max-width: 768px) {
     .cabecalho_imagem{
         display: none;
