@@ -27,7 +27,7 @@ body{
 }
 .cabecalho_lista li{
     display: inline-block;
-    padding: px;
+    padding: 0px;
     top: 0px;
     left: 0px;
 }
@@ -105,7 +105,8 @@ li a:hover{
         display: inline-block;
     }
     .cabecalho_lista li button{
-        font-size: 10px;
+        font-size: 15px;
+        padding: 0px;
     
     }
 }
