@@ -84,9 +84,6 @@ li a:hover{
     .cabecalho_imagem{
         display: none;
     }
-    li{
-        display: none;
-    }
     .Nome_no_cabecalho h1{
         color: white;
         font-family: Arial, Helvetica, sans-serif;
