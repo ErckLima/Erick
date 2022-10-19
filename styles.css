@@ -107,6 +107,10 @@ li a:hover{
     .conteudo_sites ul, li{
         display: inline-block;
     }
+    .cabecalho_lista li button{
+        font-size: 10px;
+    
+    }
 }
 @media screen and (min-width: 768px ) {
     .cabecalho_menu{
