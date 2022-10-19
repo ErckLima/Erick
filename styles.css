@@ -6,7 +6,6 @@ body{
 .cabecalho{
     background-color: #37EDDB;
     display: flex;
-    justify-content: space-between;
     padding: 10px;
     border-radius: 30px;
     align-items: center;
