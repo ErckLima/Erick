@@ -74,6 +74,7 @@ li a:hover{
 
 .Nome_no_cabecalho{
     margin-left: 100px;
+    flex-wrap: nowrap;
 }
 .Nome_no_cabecalho h1{
     color: white;
