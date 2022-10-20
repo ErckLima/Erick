@@ -1,7 +1,3 @@
-body{
-    background-color: #166159;
-}
-
 
 .cabecalho{
     background-color: #1d9e91;
@@ -97,9 +93,23 @@ li a:hover{
 .conteudo_sites li button{
     background: none;
     border: none;
-
-
     
+}
+.conteudo_contatos ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    
+
+}
+.card-body{
+    background-color: #1d9e91;
+    border: none;
+    padding-left: 0px;
+
+}
+.card-body h5{
+    color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
@@ -129,5 +139,11 @@ li a:hover{
     }
     .conteudo_sites ul{
         padding-top: 20px;
+    }
+    .card-body{
+        display: block;
+        align-items: center;
+        margin: auto;
+    
     }
 }
