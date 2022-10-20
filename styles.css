@@ -109,4 +109,8 @@ li a:hover{
         padding: 0px;
     
     }
+    .cabecalho_lista ul{
+        padding-left: 80px;
+    
+    }
 }
