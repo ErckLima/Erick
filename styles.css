@@ -102,8 +102,6 @@ li a:hover{
     
 }
 
-
-
 @media screen and (max-width: 768px) {
     .cabecalho_imagem{
         display: none;
@@ -127,7 +125,9 @@ li a:hover{
         max-width: 60px;
         max-height: 60px;
         box-shadow: 0px 0px 10px black;
-        border-radius: 20px;
-        
+        border-radius: 20px; 
+    }
+    .conteudo_sites ul{
+        padding-top: 20px;
     }
 }
