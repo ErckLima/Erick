@@ -138,12 +138,10 @@ li a:hover{
         border-radius: 20px; 
     }
     .conteudo_sites ul{
-        padding-top: 20px;
+        padding: 10px;
     }
     .card-body{
         display: block;
-        align-items: center;
         margin: auto;
-    
     }
 }
