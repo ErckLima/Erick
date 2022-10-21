@@ -209,7 +209,12 @@ footer{
     border: none;
     background-color: #00000000;
 }
-
+.Contatos li{
+    padding: 0%;
+}
+.Contatos ul{
+    padding: 0%;
+}
 
 
 
