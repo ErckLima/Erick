@@ -23,13 +23,13 @@ body{
 }
 
 .cabecalho{
-    background-color: #1d9e91;
+    background-color: #1b39be8f;
     display: flex;
     padding: 10px;
     border-radius: 30px;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1200px;
+    width: 90%;
     margin: auto;
     box-shadow: 0px 0px 50px rgb(0, 0, 0);
     margin-top: 20px;
@@ -128,10 +128,15 @@ li a:hover{
 .conteudo_contatos ul{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0px;
-    
+    padding: 0%;
 
 }
+.conteudo_contatos li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
 .card-body{
     background-color: #ffffff;
     border: none;
@@ -147,7 +152,39 @@ footer p{
     text-align: center;
 
 }
+.diminuir img{
+    margin: auto;
+    max-width: 300px;
+    max-height: auto;
+    padding: 0px;
+    border-radius: 30px;
+}
+.diminuir ul{
+    padding-left: 0%;
+    margin: auto;
+    display: flex;
+}
+.diminuir li{
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px;
+}
+.card.mb-3.diminuir{
+    background-color: rgba(255, 255, 255, 0.301);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-width: 90%;
+    margin: auto;
+}
+.card-body.diminuir{
 
+    background-color: #ffffffd5;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+}
+.card-title.Unico{
+    text-shadow: none;
+}
 
 
 
@@ -253,5 +290,9 @@ footer p{
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         border: none;
+    }
+    .diminuir li{
+        justify-content: space-between;
+        padding: 0px
     }
 }
