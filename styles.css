@@ -4,7 +4,8 @@ body{
     height: 100vh;
     width: 100%; 
     position: relative; /*Define a posição*/
-    background-image: url(./imgs/fundoprog.jpg); /*define imagem de fundo*/
+    /*background-image: url(./imgs/fundoprog.jpg); define imagem de fundo*/
+    background: linear-gradient(to bottom, blue, white);
     background-image: cover;
     background-repeat: no-repeat;/*Não permite que a magem de fundo repita*/
     font-family: Arial, Helvetica, sans-serif; /*Fonte do body*/
@@ -23,7 +24,7 @@ body{
 }
 
 .cabecalho{
-    background: linear-gradient(to bottom, blue, white);
+    background-color: none;
     display: flex;
     padding: 10px;
     border-radius: 30px;
