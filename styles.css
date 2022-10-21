@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: auto;
     width: 100%; 
     position: relative; /*Define a posição*/
     /*background-image: url(./imgs/fundoprog.jpg); define imagem de fundo*/
