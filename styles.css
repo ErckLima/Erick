@@ -23,7 +23,7 @@ body{
 }
 
 .cabecalho{
-    background-color: none;
+    background: linear-gradient(to bottom, blue, white);
     display: flex;
     padding: 10px;
     border-radius: 30px;
