@@ -249,7 +249,7 @@ footer p{
         /*background-image: url(./imgs/paraotel.jpg); define imagem de fundo*/
         background: linear-gradient(to bottom, blue, white);
         background-image: cover;
-        background-repeat:repeat/*Não permite que a magem de fundo repita*/
+        background-repeat: no-repeat,/*Não permite que a magem de fundo repita*/
     }
     .conteudo_sites{
         background-color: #ffffff33;
