@@ -343,4 +343,7 @@ footer{
     footer{
         background-color: #ffffff;
     }
+    .conteudo_contatos{
+        display: none;
+    }
 }
