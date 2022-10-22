@@ -170,7 +170,7 @@ footer p{
     padding: 10px 50px 10px 50px;
 }
 .card.mb-3.diminuir{
-    background-color: rgba(104, 93, 202, 0.205);
+    background: linear-gradient(to left, white, blue); /*esse*/
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     max-width: 90%;
