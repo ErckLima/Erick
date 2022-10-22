@@ -5,26 +5,17 @@ body{
     width: 100%; 
     position: relative; /*Define a posição*/
     /*background-image: url(./imgs/fundoprog.jpg); define imagem de fundo*/
-    background: linear-gradient(to bottom, white, blue);
+    background: linear-gradient(to bottom, rgba(0, 255, 221, 0.445), rgba(0, 0, 255, 0.26));
     background-image: cover;
     background-repeat: no-repeat;/*Não permite que a magem de fundo repita*/
     font-family: Arial, Helvetica, sans-serif; /*Fonte do body*/
 }
-
 .secaocompleta{
-  content: '';
-  background-color: rgba(0, 0, 1, 0.692);
-  min-height: 100vh;
-  position: relative;
-  z-index: 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+    width: 100%;
 }
 
 .cabecalho{
-    background-color: rgba(63, 63, 252, 0.452);
+    background-color: rgba(25, 25, 252, 0.753);
     display: flex;
     padding: 10px;
     border-radius: 30px;
@@ -149,7 +140,7 @@ li a:hover{
     text-shadow: 0px 0px 10px #000000;
 }
 footer p{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
     text-align: center;
 
 }
@@ -170,7 +161,7 @@ footer p{
     padding: 10px 50px 10px 50px;
 }
 .card.mb-3.diminuir{
-    background: linear-gradient(to left, white, blue); /*esse*/
+    background: linear-gradient(to left, white, rgb(248, 115, 115)); /*esse*/
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     max-width: 90%;
@@ -178,7 +169,7 @@ footer p{
 }
 .card-body.diminuir{
 
-    background-color: #ffffff6c;
+    background-color: #ffffff;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border: none;
@@ -189,20 +180,22 @@ footer p{
 
 .Contatos{
     padding: 5px;
-    background-color: #ffffff;
+    background-color: #000000;
     border: 1px black;
 }
 .Contatos p{
-    color: #030303;
+    color: #ffffff;
     margin: auto;
 }
 footer{
-    background-color: #ffffff;
+    background-color: #000000;
 }
 .Contatos img{
     max-width: 30px;
-    padding: 0px;
-    background-color: none;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 10px;
+
 
 }
 .Contatos button{
@@ -218,9 +211,12 @@ footer{
     padding: 0%;
 }
 .Contatos span{
-    color: #000000;
+    color: #ffffff;
     flex-wrap: nowrap;
     
+}
+.carrossel{
+    display: none;
 }
 
 
@@ -281,12 +277,12 @@ footer{
         width: 100vw; 
         position: relative; /*Define a posição*/
         /*background-image: url(./imgs/paraotel.jpg); define imagem de fundo*/
-        background: linear-gradient(to bottom, white, blue);
+        background: linear-gradient(to bottom, rgba(0, 255, 221, 0.445), rgba(0, 0, 255, 0.26));
         background-image: cover;
         background-repeat: no-repeat;/*Não permite que a magem de fundo repita*/
     }
     .conteudo_sites{
-        background-color: #ffffff0a;
+        background-color: #ffffff00;
         margin-top: 5px;
         margin-bottom: 1px;
             
@@ -300,7 +296,7 @@ footer{
         
     }
     footer p{
-        color: rgb(5, 5, 5);
+        color: rgb(255, 255, 255);
         text-align: center;
 
     }
@@ -322,7 +318,7 @@ footer{
     }
     .card-body.diminuir{
 
-        background-color: #ffffff6c;
+        background-color: #ffffff;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         border: none;
@@ -333,7 +329,7 @@ footer{
     }
     .Contatos{
         padding: 10%;
-        background-color: #ffffff;
+        background-color: #030303;
         border: 1px black;
     }
     .Contatos p{
@@ -341,9 +337,40 @@ footer{
     
     }
     footer{
-        background-color: #ffffff;
+        background-color: #000000;
     }
     .conteudo_contatos{
         display: none;
     }
+    .carrossel{
+        padding-top: 10px;
+        width: 290px;
+        height: 380px;
+        overflow: hidden; 
+        margin: auto;     
+        display: block; 
+
+        
+    }
+    .carrossel .img_carrossel{
+        width: 500%;
+        animation-name: animação;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+
+    }
+    @keyframes animação {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+        25% { margin-left: -100%;}
+        45% { margin-left: -100%;}
+        50% { margin-left: -200%;}
+        70% { margin-left: -200%;}
+        75% { margin-left: -300%;}
+        95% { margin-left: -300%;}
+        100% { margin-left: -400%;}
+
+
+    }
+
 }
