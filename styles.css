@@ -200,8 +200,8 @@ footer{
     background-color: #ffffff;
 }
 .Contatos img{
-    max-width: 50px;
-    padding: 10px;
+    max-width: 30px;
+    padding: 0px;
     background-color: none;
 
 }
@@ -211,9 +211,16 @@ footer{
 }
 .Contatos li{
     padding: 0%;
+    
+
 }
 .Contatos ul{
     padding: 0%;
+}
+.Contatos span{
+    color: #000000;
+    flex-wrap: nowrap;
+    
 }
 
 
